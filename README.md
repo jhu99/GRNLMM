@@ -17,13 +17,13 @@ V_e: G x G symmetric matrix of initial value of error covariance matrix
 ## Example of input matrix x
 ` 2.1&nbsp;&nbsp;&nbsp;1.1&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;...
 
- 3.6&nbsp&nbsp&nbsp0&nbsp&nbsp&nbsp0&nbsp&nbsp&nbsp...
+ 3.6&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp0;&nbsp;&nbsp;&nbsp;...
 
-.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp`
+.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
 
 ## Example of input matrix V_g
 ` 1   0   0   ...`
