@@ -26,28 +26,28 @@ $$
 $$
 
 ## Example of input matrix V_g
-` 1   0   0   ...`
-
-` 0   1   0   ...`
-
-`.`
-
-`.`
-
-`.           1`
+$$
+  \begin{matrix}
+   1 & 0 & 0 & ... \\
+   0 & 1 & 0 & ... \\
+   . &  &  & \\
+   . &  &  & \\
+   . &  &  & 1
+  \end{matrix} \tag{1}
+$$
 
 ## Example of input matrix V_e
-` 1   0   0   ...`
+$$
+  \begin{matrix}
+   1 & 0 & 0 & ... \\
+   0 & 1 & 0 & ... \\
+   . &  &  & \\
+   . &  &  & \\
+   . &  &  & 1
+  \end{matrix} \tag{1}
+$$
 
-` 0   1   0   ...`
-
-`.`
-
-`.`
-
-`.           1`
-
-#Output of GRNLMM
+# Output of GRNLMM
 The output of GRNLMM is a G x G covariance symmetric matrix V_g, where V_g[1,2] represents the correlation of gene1 and gene2.
 
 Further, we can transform it to a matrix R of correlation coefficient by
