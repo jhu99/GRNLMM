@@ -15,37 +15,37 @@ V_g: G x G symmetric matrix of initial value of genetic covariance matrix
 V_e: G x G symmetric matrix of initial value of error covariance matrix
 
 ## Example of input matrix x
-$
+$$
   \begin{matrix}
    2.1 & 1.1 & 0 & ... \\
    3.6 & 0 & 0 & ... \\
    . &  &  & \\
    . &  &  & \\
    . &  &  & 
-  \end{matrix} \tag{1}
-$
+  \end{matrix}
+$$
 
 ## Example of input matrix V_g
-$
+$$
   \begin{matrix}
    1 & 0 & 0 & ... \\
    0 & 1 & 0 & ... \\
    . &  &  & \\
    . &  &  & \\
    . &  &  & 1
-  \end{matrix} \tag{1}
-$
+  \end{matrix}
+$$
 
 ## Example of input matrix V_e
-$
+$$
   \begin{matrix}
    1 & 0 & 0 & ... \\
    0 & 1 & 0 & ... \\
    . &  &  & \\
    . &  &  & \\
    . &  &  & 1
-  \end{matrix} \tag{1}
-$
+  \end{matrix}
+$$
 
 # Output of GRNLMM
 The output of GRNLMM is a G x G covariance symmetric matrix V_g, where V_g[1,2] represents the correlation of gene1 and gene2.
