@@ -290,14 +290,3 @@ grnlmm <- function(x,V_g,V_e)
   }
   return(out[[1]][["Vg"]])
 }
-x<-as.matrix(read.table("data.txt", sep="\t"))
-g<-as.matrix(read.table("tf.txt",sep = "\t"))
-row.names(x)<-g[,1]
-ma<-matrix(0,nrow = nrow(x),ncol = nrow(x))
-for (i in 1:nrow(x)) {
-  ma[i,i]<-1
-}
-ma<-as.matrix(ma)
-V_g <- ma
-V_e <- ma
-zz<-grnlmm(x,V_g,V_e)
