@@ -52,4 +52,4 @@ The output of GRNLMM is a G x G covariance symmetric matrix V_g, where V_g[1,2] 
 
 Further, we can transform it to a matrix R of correlation coefficient by
 
-R = Di %*% V_g %*% Di, where Di is the inverse matrix of D, D = sqrt(V_g).
+R = Di · V_g · Di, where Di is the inverse matrix of D, D = sqrt(V_g).
