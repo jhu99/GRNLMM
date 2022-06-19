@@ -17,13 +17,9 @@ V_e: G x G symmetric matrix of initial value of error covariance matrix
 ## Example
 ```
 library(grnlmm)
-
 load('data/expressiondata.rda')
-
 load('data/vg.rda')
-
 load('data/ve.rda')
-
 Vg <- grnlmm (x, vg, ve)
 ```
 
