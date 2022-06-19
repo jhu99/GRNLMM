@@ -1,6 +1,6 @@
 # GRNLMM
 Constructing gene co-expression networks from single-cell expression data using linear mixed model.
-# Running GRNLMM
+
 
 ## Installation
 `install_github("jhu99/GRNLMM/grnlmm")`
@@ -16,9 +16,13 @@ V_e: G x G symmetric matrix of initial value of error covariance matrix
 
 ## Example
 `library(grnlmm)`
+
 `load('data/expressiondata.rda')`
+
 `load('data/vg.rda')`
+
 `load('data/ve.rda)`
+
 `Vg <- grnlmm (x, vg, ve)`
 
 
