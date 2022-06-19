@@ -15,16 +15,17 @@ V_e: G x G symmetric matrix of initial value of error covariance matrix
 
 
 ## Example
-`library(grnlmm)`
+```
+library(grnlmm)
 
-`load('data/expressiondata.rda')`
+load('data/expressiondata.rda')
 
-`load('data/vg.rda')`
+load('data/vg.rda')
 
-`load('data/ve.rda')`
+load('data/ve.rda')
 
-`Vg <- grnlmm (x, vg, ve)`
-
+Vg <- grnlmm (x, vg, ve)
+```
 
 # Output of GRNLMM
 The output of GRNLMM is a G x G covariance symmetric matrix V_g, where V_g[1,2] represents the correlation of gene1 and gene2.
