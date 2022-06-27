@@ -1,5 +1,6 @@
 # GRNLMM: Constructing gene co-expression networks from single-cell expression data using linear mixed model
 
+
 ## Installation
 For installation please use the following codes in R
 
@@ -44,4 +45,6 @@ R <- Di %*% A %*% Di
 ```
 
 ## Applications
+The experimental code implementation in the paper can be viewed in applications in grnlmm folder.
 
+## Citation
