@@ -3,7 +3,8 @@ Constructing gene co-expression networks from single-cell expression data using 
 
 
 ## Installation
-`install_github("jhu99/GRNLMM/grnlmm")`
+For installation please use the following codes in R:
+```install_github("jhu99/GRNLMM/grnlmm")```
 
 
 ## Input data
