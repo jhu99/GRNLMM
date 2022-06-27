@@ -1,5 +1,4 @@
-# GRNLMM
-Constructing gene co-expression networks from single-cell expression data using linear mixed model.
+# GRNLMM: Constructing gene co-expression networks from single-cell expression data using linear mixed model
 
 
 ## Installation
