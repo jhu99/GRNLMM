@@ -1,22 +1,11 @@
 # GRNLMM: Constructing gene co-expression networks from single-cell expression data using linear mixed model
 
-
 ## Installation
 For installation please use the following codes in R
 
 ```
 install_github("jhu99/GRNLMM/grnlmm")
 ```
-
-
-## Input data
-x: G x C matrix of expression data, where G is the number of genes and C is the number of cells
-
-V_g: G x G symmetric matrix of initial value of genetic covariance matrix
-
-V_e: G x G symmetric matrix of initial value of error covariance matrix
-
-
 ## Example
 ```
 library(grnlmm)
@@ -26,9 +15,33 @@ load('data/ve.rda')
 Vg <- grnlmm (x, vg, ve)
 ```
 
-# Output of GRNLMM
-The output of GRNLMM is a G x G covariance symmetric matrix V_g, where V_g[1,2] represents the correlation of gene1 and gene2.
+### Input of GRNLMM
+ <li type="disc">x&nbsp;:&nbsp;G x C matrix of expression data, where G is the number of genes and C is the number of cells</li>
+ <li type="disc">V_g&nbsp;:&nbsp;G x G symmetric matrix of initial value of genetic covariance matrix</li>
+ <li type="disc">V_e&nbsp;:&nbsp;G x G symmetric matrix of initial value of error covariance matrix</li>
+
+### Output of GRNLMM 
+The output of GRNLMM is a G x G covariance symmetric matrix V_g with the format :
+```
+ 0.31  0.15 -0.43  ...
+ 0.15  1.50  0.60  ...
+-0.43  0.60  1.13  ...
+ .
+ .
+ .
+```
+where V_g [&nbsp;i&nbsp;,&nbsp;j&nbsp;] represents the correlation between gene i and gene j.
 
 Further, we can transform it to a matrix R of correlation coefficient by
+```
+for(i in 1:nrow(A)){
+    D[i,i] <- sqrt(A[i,i])  
+}
 
-R = Di · V_g · Di, where Di is the inverse matrix of D, D = sqrt (V_g).
+Di <- solve(D)
+
+R <- Di %*% A %*% Di
+```
+
+## Applications
+
