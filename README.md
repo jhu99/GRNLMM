@@ -1,5 +1,7 @@
 # GRNLMM: Constructing gene co-expression networks from single-cell expression data using linear mixed model
 
+## introduction
+We development a new method, GRNLMM, which models single-cell expression data by a linear mixed model and uses the covariance matrix of random effect terms to characterize the correlation between genes. To overcome the influence of randomness of intercellular expression and improve the accuracy of the predicted GRNs, we use a known correlation matrix to reflect the relationship between cells and add a noise term to the model. Our results show that GRNLMM has advantages in accurately identifying the co-expressive relationships between genes and can explore genes and gene function modules that play an essential role in biological processes.
 
 ## Installation
 For installation please use the following codes in R
@@ -48,3 +50,4 @@ R <- Di %*% A %*% Di
 The experimental code implementation in the paper can be viewed in applications in grnlmm folder.
 
 ## Citation
+Jialu Hu, Bin Lian, Xuequn Shang, GRNLMM: Constructing gene co-expression networks from single-cell expression data using linear mixed model (unpublished).
