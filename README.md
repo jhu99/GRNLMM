@@ -7,7 +7,7 @@ We development a new method, GRNLMM, which models single-cell expression data by
 For installation please use the following codes in R
 
 ```
-install_github("jhu99/GRNLMM/grnlmm")
+install_github("jhu99/GRNLMM")
 ```
 ## Example
 ```
