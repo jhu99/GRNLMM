@@ -1,4 +1,4 @@
-# GRNLMM: Constructing gene co-expression networks from single-cell expression data using linear mixed model
+# GCNVDA: Inference of gene co-expression networks from single-cell transcriptome data based on variance decomposition analysis
 
 ![](https://img.shields.io/github/r-package/v/jhu99/GRNLMM)
 ![](https://img.shields.io/github/license/jhu99/GRNLMM)
