@@ -1,4 +1,4 @@
-# It converts the covariance matrix of grnlmm's output to the correlation matrix
+# It converts the covariance matrix of gcnvda's output to the correlation matrix
 # Di is the inverse matrix of D
 A<-read.csv("v_g.csv",header = TRUE, sep = ",", quote = "\"",
             dec = ".", fill = TRUE, comment.char = "!")
