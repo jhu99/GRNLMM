@@ -19,7 +19,7 @@ library(gcnvda)
 load('data/expressiondata.rda')
 load('data/vg.rda')
 load('data/ve.rda')
-Vg <- gcnvda (x, v_g, v_e)
+Vg <- gcnvda (x, V_g, V_e)
 ```
 
 ### Input of GCNVDA
