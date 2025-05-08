@@ -315,7 +315,7 @@ update_v <- function (eval, U, E, Sigma_uu, Sigma_ee, tol = 1/10000)
 }
 
 
-#' @title grnlmm
+#' @title gcnvda
 #' 
 #' @description 
 #' Perform expectation-maximization algorithm to infer Vg and Ve values for a pair of traits.
@@ -325,7 +325,7 @@ update_v <- function (eval, U, E, Sigma_uu, Sigma_ee, tol = 1/10000)
 #' @param V_e error covariance matrix
 #' @export
 #' @return a covariance matrix representing the correlation between genes
-grnlmm <- function(x,V_g,V_e)
+gcnvda <- function(x,V_g,V_e)
 {
   K <- cor(x)
   eig <- eigen2(K)
