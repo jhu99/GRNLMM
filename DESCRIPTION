@@ -1,11 +1,15 @@
 Package: gcnvda
-Title: Inference of gene co-expression networks from single-cell transcriptome data based on variance decomposition analysis
+Title: Inference of gene co-expression networks from single-cell
+        transcriptome data based on variance decomposition analysis
 Version: 1.0.0
 Author: Lian Bin
 Maintainer: Lian Bin <lianbincs15@163.com>
 Description: We development a new method, GCNVDA, which models single-cell expression data by variance decomposition and uses the covariance matrix of random effect terms to characterize the correlation between genes.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+        license
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+NeedsCompilation: no
+Packaged: 2025-05-08 07:06:10 UTC; admin
+Depends: R (>= 3.5.0)
