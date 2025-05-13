@@ -54,4 +54,8 @@ R <- Di %*% A %*% Di
 The experimental code implementation in the paper can be viewed in applications folder.
 
 ## Citation
-Jialu Hu, Bin Lian, Haohui Zhang, Tao Wang, Yongtian Wang, Xuequn Shang, Inference of gene co-expression networks from single-cell transcriptome data based on variance decomposition analysis (unpublished).
+Bin Lian, Haohui Zhang, Tao Wang, Yongtian Wang, Xuequn Shang, Ahmad
+Aziz, Jialu Hu，Inference of gene coexpression networks from
+single-cell transcriptome data based on variance
+decomposition analysis (submitted)
+
